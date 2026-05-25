@@ -1,5 +1,5 @@
 #include "MainFrame.h"
-#include "..\Main.h"
+#include "../Main.h"
 #include <wx/wx.h>
 #include <wx/artprov.h>
 #include <wx/listctrl.h>
@@ -8,7 +8,6 @@
 // Inicializujem referenci app_Context v konstruktoru
 MainFrame::MainFrame(AppContext& appContext, const wxString& title) : wxFrame(nullptr, wxID_ANY, title), m_appContext(appContext)
 {
-	this->m_appContext = appContext;
 	wxBitmap bitmap = wxArtProvider::GetBitmap(wxART_WARNING, wxART_OTHER, wxSize(64, 64));
 	new wxStaticBitmap(this, wxID_ANY, bitmap, wxPoint(20, 20));
 

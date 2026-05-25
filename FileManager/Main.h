@@ -1,4 +1,5 @@
 #pragma once
+#include <memory>
 #include "Globals/AppContext.h"
 #include <wx/wx.h>
 #include "Ui/MainFrame.h"

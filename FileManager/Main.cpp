@@ -3,6 +3,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #endif
 
+#include <memory>
 #include "Main.h"
 #include "Ui/MainFrame.h"
 
