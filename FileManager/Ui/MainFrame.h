@@ -10,4 +10,6 @@ class MainFrame : public wxFrame
 
 public:
 	MainFrame(AppContext& appContext, const wxString& title);
+private:
+	void CreateMainMenu();
 };
